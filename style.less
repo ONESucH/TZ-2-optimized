@@ -1,0 +1,1143 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-family: 'Open Sans';
+  font-weight: normal;
+}
+
+.header {
+  position: relative;
+}
+
+.subscribe {
+  padding: 9px 220px 7px;
+  border-bottom: 1px solid silver;
+  text-align: right;
+  img {
+    opacity: 0.6;
+  }
+  a {
+    margin: auto 11px;
+  }
+}
+
+.rosebud-and-menu {
+  padding: 7px 225px 28px 265px;
+  text-align: right;
+  clear: left;
+  color: #414247;
+  ul {
+    display: inline-block;
+    margin-top: 20px;
+    &:after {
+      content: '';
+      display: inline-block;
+      vertical-align: top;
+      width: 20px;
+      height: 20px;
+      margin-left: 9px;
+      background: url("img/icons/lop.png") no-repeat center;
+      background-size: auto;
+    }
+  }
+  li {
+    display: inline-block;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  a {
+    text-decoration: none;
+    color: #414247;
+    padding: 15px 10px;
+    margin-left: 26px;
+    font-weight: bolder;
+  }
+}
+
+.rosebud {
+  display: inline-block;
+  vertical-align: middle;
+  float: left;
+  p {
+    font-size: 46px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}
+
+.content {
+  position: relative;
+  text-align: center;
+}
+
+.carousel {
+  text-align: center;
+  margin: auto;
+  height: 650px;
+  overflow: hidden;
+}
+
+.left-button {
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  width: 150px;
+  height: 650px;
+  opacity: 0.4;
+  cursor: pointer;
+  z-index: 2;
+  background: url("img/icons/w.png") center no-repeat;
+  background-size: auto;
+  &:hover {
+    background-size: 35%;
+  }
+}
+
+.right-button {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  width: 150px;
+  height: 650px;
+  opacity: 0.4;
+  cursor: pointer;
+  z-index: 2;
+  background: url("img/icons/pw.png") center no-repeat;
+  background-size: auto;
+  &:hover {
+    background-size: 35%;
+  }
+}
+
+.information-block {
+  position: absolute;
+  left: 20vh;
+  right: 20vh;
+  text-align: center;
+  padding: 174px 0;
+  z-index: 1;
+  p {
+    text-transform: uppercase;
+    font-size: 19px;
+    color: #a4a4a4;
+    letter-spacing: 4px;
+    padding-left: 25px;
+    word-spacing: 3px;
+  }
+  h1 {
+    color: #fff;
+    padding: 10px 0 11px 28px;
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  button {
+    color: #fff;
+    background: #7981c9;
+    text-transform: uppercase;
+    padding: 10px 5px;
+    width: 150px;
+    margin: 72px auto 0;
+    margin-left: 22px;
+    font-size: 22px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+  }
+}
+
+.move-block {
+  text-align: left;
+  width: 99999px;
+  z-index: 3;
+  img {
+    display: inline-block;
+    width: 100vw;
+    height: auto;
+  }
+}
+
+.bottom-pagination {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-top: -52px;
+  padding-left: 22px;
+  text-align: center;
+  z-index: 5;
+  span {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: rgba(121, 129, 201, .4);
+    margin: auto 3px;
+    cursor: pointer;
+    &:active {
+      background: #7981c9;
+    }
+  }
+}
+
+.about-rosebud {
+  position: relative;
+  padding: 80px 0 40px;
+  text-align: center;
+  h2 {
+    font-size: 28px;
+    padding-left: 22px;
+    padding-bottom: 4px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  ul {
+    list-style: none;
+    margin-top: 36px;
+  }
+  li {
+    display: inline-block;
+    text-align: left;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    vertical-align: top;
+    margin-bottom: 40px;
+    width: 450px;
+    padding-left: 122px;
+  }
+  img {
+    position: absolute;
+    margin-left: -95px;
+    margin-top: 6px;
+    display: inline-block;
+  }
+  span {
+    display: block;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 13px;
+    text-transform: uppercase;
+  }
+}
+
+.decor-block {
+  background: #7981c9;
+  height: 5px;
+  width: 100px;
+  padding-left: 5px;
+  margin: auto;
+}
+
+.book-dishes {
+  position: relative;
+  text-align: center;
+  background: url("img/background/background-1.png") no-repeat center;
+  background-size: cover;
+  padding: 105px 0 84px;
+  p {
+    padding-left: 19px;
+    text-transform: uppercase;
+    font-size: 28px;
+    color: #fff;
+  }
+}
+
+.decor-block-two {
+  background: #fff;
+  height: 1px;
+  width: 100px;
+  margin: 22px auto;
+}
+
+.subscribe-two {
+  padding-left: 26px;
+  padding-top: 5px;
+  i {
+    color: #75645c;
+    cursor: pointer;
+    font-size: 20px;
+    margin: auto 9px;
+    vertical-align: top;
+    &:hover {
+      color: #7981c9;
+    }
+  }
+}
+
+.active-block {
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  opacity: 0.5;
+  background: #7981c9;
+}
+
+.decor-block-three {
+  background: #7981c9;
+  height: 5px;
+  width: 100px;
+  margin: 4px auto;
+}
+
+.food-menu {
+  position: relative;
+  padding: 80px 0 40px;
+  h2 {
+    font-size: 28px;
+    font-weight: bold;
+    padding-left: 19px;
+    text-transform: uppercase;
+  }
+}
+
+.food-block {
+  margin-top: 80px;
+  list-style: none;
+  padding: 0 190px 0 215px;
+}
+
+.image-block {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  height: 250px;
+  margin: auto 14px 30px;
+  text-align: center;
+  &:hover .hover-decorate-block {
+    display: block;
+    background: rgba(128, 136, 209, 0.35);
+  }
+  &:hover .hover-block {
+    display: block;
+    background: rgba(128, 136, 209, 0.73);
+    margin: 15px;
+    padding: 67px 0 9px;
+    border: 1px solid white;
+  }
+  &:nth-child(1) {
+    background: url("img/food/food-1.png") center no-repeat;
+    background-size: cover;
+  }
+  &:nth-child(2) {
+    background: url("img/food/food-2.png") center no-repeat;
+    background-size: cover;
+  }
+  &:nth-child(3) {
+    background: url("img/food/food-3.png") center no-repeat;
+    background-size: cover;
+  }
+  &:nth-child(4) {
+    background: url("img/food/food-4.png") center no-repeat;
+    background-size: cover;
+  }
+  &:nth-child(5) {
+    background: url("img/food/food-5.png") center no-repeat;
+    background-size: cover;
+  }
+  &:nth-child(6) {
+    background: url("img/food/food-6.png") center no-repeat;
+    background-size: cover;
+  }
+}
+
+.hover-decorate-block {
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 2;
+}
+
+.hover-block {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: none;
+  padding: 84px 0 25px;
+  text-align: center;
+  z-index: 4;
+  p {
+    font-size: 28px;
+    color: #fff;
+  }
+  img {
+    display: inline-block;
+    width: 61px;
+    z-index: 5;
+    cursor: pointer;
+    margin: 18px 16px;
+  }
+  a {
+    text-decoration: none;
+  }
+}
+
+.just-the-right-food {
+  position: relative;
+  background: #fff url("img/background/background-2.png") no-repeat right center;
+  background-size: auto;
+  padding: 30px 0 0;
+  text-align: center;
+  h2 {
+    font-size: 28px;
+    padding-left: 22px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  p {
+    width: 450px;
+    font-size: 18px;
+    padding: 0;
+    font-weight: 400;
+  }
+  span {
+    display: block;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  ul {
+    list-style: none;
+    margin: auto;
+    padding: 52px 0 0;
+    counter-reset: heading;
+  }
+  li {
+    display: block;
+    text-align: left;
+    font-size: 18px;
+    line-height: 23px;
+    margin-bottom: 120px;
+    vertical-align: top;
+    width: 725px;
+    &:before {
+      counter-increment: heading;
+      content: counter(heading) + '.';
+      position: absolute;
+      display: inline-block;
+      background: #7981c9;
+      vertical-align: middle;
+      margin-left: -93px;
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 80px;
+      width: 80px;
+      height: 80px;
+      margin-right: 20px;
+      margin-top: 5px;
+      color: #fff;
+      text-align: center;
+      border-radius: 100%;
+    }
+    &:nth-child(1) {
+      margin-left: 29.1%;
+    }
+    &:nth-child(2) {
+      margin-left: 21.5%;
+    }
+    &:nth-child(3) {
+      margin-left: 29.2%;
+    }
+    &:nth-child(4) {
+      margin-left: 36.8%;
+      margin-bottom: 78px;
+    }
+  }
+}
+
+#text-top {
+  display: block;
+  margin: auto;
+  font-size: 18px;
+  padding: 21px 20px 0 40px;
+  font-weight: 400;
+  width: auto;
+}
+
+.hover-decorate-four {
+  background: #7981c9;
+  height: 5px;
+  width: 100px;
+  margin: 4px auto;
+}
+
+.share-block {
+  position: relative;
+  background: url("img/background/background-3.png") no-repeat center;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  padding-left: 22px;
+  & > div {
+    display: inline-block;
+    background: #7981c9;
+    padding-top: 70px;
+    width: 350px;
+    height: 230px;
+    margin: auto 15px;
+    vertical-align: top;
+  }
+  span {
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  p {
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  img {
+    display: block;
+    width: 76px;
+    height: 66px;
+    margin: 0 auto 12px;
+    vertical-align: top;
+  }
+}
+
+.get-in-touch {
+  position: relative;
+  padding-top: 80px;
+  h2 {
+    font-size: 29px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left: 29px;
+  }
+  p {
+    padding: 19px 0 0 30px;
+    font-size: 14px;
+  }
+  ul {
+    list-style: none;
+    margin-top: 55px;
+    padding-left: 20px;
+  }
+  li {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 242px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #86868d;
+  }
+  img {
+    display: block;
+    margin: 0 auto 12px;
+  }
+}
+
+.registration {
+  position: relative;
+  text-align: center;
+  padding: 30px 0 80px 22px;
+  button {
+    display: block;
+    vertical-align: middle;
+    background: #7981c9;
+    margin: 17px auto 0;
+    color: #fff;
+    border: none;
+    padding: 3px 3px;
+    width: 100px;
+    height: 35px;
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  img {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 6px;
+    margin-top: 3px;
+  }
+}
+
+.block-input {
+  display: inline-block;
+  vertical-align: top;
+  width: 355px;
+  margin: auto 11px auto 11px;
+  input {
+    display: block;
+    width: 90%;
+    padding: 6px 15px;
+    margin-bottom: 13px;
+  }
+}
+
+.block-message {
+  display: inline-block;
+  vertical-align: top;
+  width: 355px;
+  margin: auto 11px auto 11px;
+  textarea {
+    resize: none;
+    width: 90%;
+    height: 100px;
+    padding: 10px 15px;
+  }
+}
+
+.footer {
+  position: relative;
+  background: #1b1b1b;
+  text-align: center;
+  padding: 70px 0 25px;
+  p {
+    font-size: 18px;
+    padding-left: 22px;
+    color: #d3d3d3;
+    text-transform: uppercase;
+  }
+  button {
+    position: absolute;
+    background: #7981c9;
+    border: 2px solid #fff;
+    border-radius: 1px;
+    cursor: pointer;
+    width: 63px;
+    height: 65px;
+    margin: -103px 0 0 -20px;
+  }
+  span {
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #d3d3d3;
+    margin-left: 2px;
+  }
+}
+
+@media (max-width: 1550px) {
+  .rosebud-and-menu {
+    padding: 20px;
+    p {
+      font-size: 26px;
+    }
+    ul {
+      display: block;
+      width: auto;
+      margin-top: 45px;
+      text-align: center;
+    }
+    li {
+      font-size: 22px;
+      width: auto;
+      text-align: left;
+    }
+    a {
+      margin-left: 0;
+    }
+  }
+
+  .carousel {
+    height: 400px;
+  }
+
+  .left-button, .right-button {
+    width: 50px;
+    height: 400px;
+    background-size: 40%;
+  }
+
+  .information-block {
+    left: 10vh;
+    right: 10vh;
+    padding: 120px 0;
+    p {
+      padding-left: 0;
+      font-size: 24px;
+    }
+    h1 {
+      font-size: 26px;
+      padding: 20px 10px;
+      line-height: 24px;
+    }
+    button {
+      padding: 5px;
+      width: 100px;
+      margin: 20px auto;
+      font-size: 18px;
+    }
+  }
+
+  .just-the-right-food li {
+    width: 500px;
+  }
+
+  .bottom-pagination {
+    margin-top: -60px;
+    padding-left: 0;
+    span {
+      width: 20px;
+      height: 20px;
+    }
+  }
+  .move-block {
+    height: 400px;
+  }
+  .food-block {
+    padding: 0 50px 0 50px;
+  }
+  .image-block {
+    width: 380px;
+  }
+  .share-block > div {
+    width: 30%;
+  }
+}
+
+@media (max-width: 960px) {
+  .subscribe {
+    padding: 5px;
+    text-align: center;
+  }
+
+  .rosebud-and-menu {
+    padding: 5px;
+    p {
+      font-size: 26px;
+    }
+    ul {
+      display: block;
+      width: auto;
+      margin-top: 45px;
+      text-align: center;
+    }
+    li {
+      font-size: 14px;
+      width: auto;
+      text-align: left;
+    }
+    a {
+      margin-left: 0;
+    }
+  }
+
+  .carousel {
+    height: 200px;
+  }
+
+  .left-button, .right-button {
+    width: 50px;
+    height: 200px;
+    background-size: 40%;
+  }
+
+  .information-block {
+    left: 10vh;
+    right: 10vh;
+    padding: 25px 0;
+    p {
+      padding-left: 0;
+      font-size: 14px;
+    }
+    h1 {
+      font-size: 18px;
+      padding: 5px 2px 2px;
+      line-height: 14px;
+    }
+    button {
+      padding: 5px;
+      width: 100px;
+      margin: 20px auto;
+      font-size: 18px;
+    }
+  }
+
+  .bottom-pagination {
+    margin-top: -30px;
+    padding-left: 0;
+    span {
+      width: 10px;
+      height: 10px;
+    }
+  }
+  .move-block {
+    height: 200px;
+  }
+  .about-rosebud {
+    padding: 5px;
+    h2 {
+      font-size: 14px;
+      padding-left: 0;
+    }
+    ul {
+      margin-top: 30px;
+    }
+    li {
+      display: inline-block;
+      width: 42%;
+      vertical-align: top;
+      font-size: 12px;
+      line-height: 22px;
+      padding: 5px 10px;
+    }
+    img {
+      position: relative;
+      display: block;
+      margin: auto;
+    }
+    span {
+      padding: 10px 0;
+      text-align: center;
+    }
+  }
+  .book-dishes {
+    padding: 5px;
+    p {
+      padding: 0;
+      font-size: 14px;
+    }
+  }
+  .food-menu {
+    padding: 5px;
+    h2 {
+      font-size: 14px;
+      padding-left: 0;
+    }
+  }
+  .food-block {
+    padding: 5px;
+    margin-top: 20px;
+  }
+  .image-block {
+    display: block;
+    width: auto;
+  }
+  .hover-block {
+    padding: 30px 0 9px;
+    p {
+      font-size: 18px;
+    }
+    img {
+      width: 40px;
+      height:40px;
+    }
+  }
+  .just-the-right-food {
+    padding: 5px;
+    h2 {
+      font-size: 14px;
+      padding-left: 0;
+    }
+    ul {
+      padding: 10px 0;
+    }
+    li {
+      font-size: 14px;
+      line-height: 23px;
+      margin-bottom: 20px;
+      padding: 10px 25px;
+      width: auto;
+      &:nth-child(-n+6) {
+        margin: auto;
+      }
+      &:before {
+        position: relative;
+        display: block;
+        margin: auto;
+        width: 70px;
+        height: 70px;
+        font-size: 34px;
+        line-height: 65px;
+      }
+    }
+    span {
+      font-size: 14px;
+      margin-top: 10px;
+    }
+    p {
+      width: auto;
+    }
+  }
+  #text-top {
+    font-size: 14px;
+    padding: 5px;
+  }
+  .share-block {
+    padding: 5px 15px;
+    & > div {
+      padding-top: 30px;
+      width: 31%;
+      margin: 15px 5px;
+    }
+    p {
+      font-size: 30px
+    }
+  }
+  .get-in-touch {
+    padding: 5px;
+    h2 {
+      font-size: 14px;
+      padding-left: 0;
+    }
+    p {
+      padding-left: 0;
+    }
+    ul {
+      margin-top: 20px;
+      padding-left: 0;
+    }
+    li {
+      padding: 5px;
+    }
+  }
+  .registration {
+    padding: 5px;
+    button {
+      margin: 15px auto;
+    }
+  }
+  .block-input, .block-message {
+    width: auto;
+  }
+  .footer {
+    padding: 38px 0 25px;
+    button {
+      width: 30px;
+      height: 30px;
+      margin: -50px auto auto -12px;
+    }
+    img {
+      width: 15px;
+      height: 15px;
+    }
+    p {
+      padding-left: 0;
+      font-size: 14px;
+    }
+    span {
+      display: block;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .subscribe {
+    padding: 5px;
+    text-align: center;
+  }
+
+  .rosebud-and-menu {
+    padding: 5px;
+    p {
+      font-size: 26px;
+    }
+    li {
+      width: 100%;
+      text-align: left;
+    }
+    a {
+      margin-left: 0;
+    }
+  }
+
+  .carousel {
+    height: 120px;
+  }
+
+  .left-button, .right-button {
+    width: 50px;
+    height: 120px;
+    background-size: 40%;
+  }
+
+  .information-block {
+    left: 10vh;
+    right: 10vh;
+    padding: 5px 0;
+    p {
+      padding-left: 0;
+      font-size: 8px;
+    }
+    h1 {
+      font-size: 10px;
+      padding: 5px 2px 2px;
+      line-height: 14px;
+    }
+    button {
+      padding: 0;
+      width: 80px;
+      margin: auto;
+      font-size: 12px;
+    }
+  }
+
+  .bottom-pagination {
+    margin-top: -30px;
+    padding-left: 0;
+    span {
+      width: 10px;
+      height: 10px;
+    }
+  }
+  .move-block {
+    height: 120px;
+  }
+  .about-rosebud {
+    padding: 5px;
+    h2 {
+      font-size: 14px;
+      padding-left: 0;
+    }
+    ul {
+      margin-top: 30px;
+    }
+    li {
+      display: block;
+      width: auto;
+      font-size: 12px;
+      line-height: 22px;
+      padding: 5px 10px;
+    }
+    img {
+      position: relative;
+      display: block;
+      margin: auto;
+    }
+    span {
+      padding: 10px 0;
+      text-align: center;
+    }
+  }
+  .book-dishes {
+    padding: 5px;
+    p {
+      padding: 0;
+      font-size: 12px;
+    }
+  }
+  .food-menu {
+    padding: 5px;
+    h2 {
+      font-size: 14px;
+      padding-left: 0;
+    }
+  }
+  .food-block {
+    padding: 5px;
+    margin-top: 20px;
+  }
+  .image-block {
+    display: block;
+    width: auto;
+  }
+  .hover-block {
+    padding: 30px 0 9px;
+    p {
+      font-size: 18px;
+    }
+    img {
+      width: 40px;
+      height:40px;
+    }
+  }
+  .just-the-right-food {
+    padding: 5px;
+    h2 {
+      font-size: 14px;
+      padding-left: 0;
+    }
+    ul {
+      padding: 10px 0;
+    }
+    li {
+      font-size: 14px;
+      line-height: 23px;
+      margin-bottom: 20px;
+      padding: 10px 5px;
+      width: auto;
+      &:nth-child(-n+6) {
+        margin: auto;
+      }
+      &:before {
+        position: relative;
+        display: block;
+        margin: auto;
+        width: 70px;
+        height: 70px;
+        font-size: 34px;
+        line-height: 65px;
+      }
+    }
+    span {
+      font-size: 14px;
+      margin-top: 10px;
+    }
+    p {
+      width: auto;
+    }
+  }
+  #text-top {
+    font-size: 14px;
+    padding: 5px;
+  }
+  .share-block {
+    padding: 5px;
+    & > div {
+      padding-top: 30px;
+      width: 100%;
+      margin: 5px 0;
+    }
+    p {
+      font-size: 30px
+    }
+  }
+  .get-in-touch {
+    padding: 5px;
+    h2 {
+      font-size: 14px;
+      padding-left: 0;
+    }
+    p {
+      padding-left: 0;
+    }
+    ul {
+      margin-top: 20px;
+      padding-left: 0;
+    }
+    li {
+      padding: 5px;
+    }
+  }
+  .registration {
+    padding: 5px;
+    button {
+      margin: 15px auto;
+    }
+  }
+  .block-input, .block-message {
+    width: auto;
+  }
+  .footer {
+    padding: 38px 0 25px;
+    button {
+      width: 30px;
+      height: 30px;
+      margin: -50px auto auto -12px;
+    }
+    img {
+      width: 15px;
+      height: 15px;
+    }
+    p {
+      padding-left: 0;
+      font-size: 12px;
+    }
+  }
+}
